@@ -1,0 +1,52 @@
+.contenedorpadre {
+    background-image: linear-gradient(to right, skyblue, lightgreen);
+    width: auto;
+    border: solid black 5px;
+  }
+  
+  @mixin headerinicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    position: sticky;
+  }
+  
+  header {
+    @include headerinicio;
+  }
+  
+  .portada {
+    width: 350px;
+    height: 300px;
+  }
+  
+  .titulos1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: indigo;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: left;
+  }
+
+  ul {
+    display: block;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  @mixin anclas{
+    color: blue;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  a {
+    @include anclas;
+  }

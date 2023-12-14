@@ -1,0 +1,104 @@
+@media (max-width: 1800px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .contact {
+        padding-left: 310px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1060px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    .copas {
+        padding: 20px;
+        display: inline-block;
+    }
+
+    .columna1,
+    .columna2,
+    .columna3,
+    .columna4,
+    .columna5,
+    .columna6 {
+        display: flex;
+    }
+
+    .cosmo,
+    .old,
+    .martini,
+    .bar,
+    .tikis,
+    .clasico {
+        padding-left: 15px;
+        width: auto;
+        height: 250px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 0.5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .contact {
+        padding-left: 100px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .columna1,
+    .columna2,
+    .columna3,
+    .columna4,
+    .columna5,
+    .columna6 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .cosmo,
+    .old,
+    .martini,
+    .bar,
+    .tikis,
+    .clasico {
+        padding-left: 40px;
+        width: auto;
+        height: 250px;
+    }
+
+    .parrafocosmo {
+        padding-left: 10px;
+    }
+
+    .parrafoold {
+        padding-right: 50px;
+    }
+
+    .parrafoautor {
+        padding-right: 60px;
+    }
+
+    .serv1 {
+        padding-right: 50px;
+    }
+
+    .serv2 {
+        padding-left: 10px;
+    }
+}
